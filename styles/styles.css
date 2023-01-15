@@ -1,3 +1,34 @@
-*{
+*,
+*::before,
+*::after {
   box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* colors */
+:root {}
+
+main img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.heading {
+  width: 100%;
+  background: hsl(0, 0%, 0%, .2);
+  position: absolute;
+  justify-content: space-between;
+
+}
+hr{
+  color: white;
+}
+body{
+  background-color:#000000;
+  color: white;
 }
