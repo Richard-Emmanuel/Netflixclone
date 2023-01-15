@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Netflix sign in</title>
-  <link rel="stylesheet" href="/styles/styles.css">
   <link rel="stylesheet" href="/styles/reg.css">
 </head>
 
@@ -19,16 +18,17 @@
   <main>
     <div class="container">
       <form class="form" action="">
-        <input type="email" placeholder="Email or phone number">
-        <input type="password" placeholder="password">
-        <input type="submit" value="Sign In">
-        <input type="checkbox" name="checkbox">
-        <label for="checkbox"> Remember me</label>
+        <h1>Sign In</h1>
+        <input type="email" placeholder="Email or phone number" required>
+        <input type="password" placeholder="password" required>
+      
+        <a href="/pages/home.html">  <input type="submit" value="Sign In" ></a><input type="checkbox" name="checkbox">
+        <label for="checkbox">Remember me</label>
         <a href="#">Need Help?</a>
       </form>
       <div class="content">
-        <p> New to Netflix? <a href="#">Sign up now.</a> </p><br>
-        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</p>
+        <h2> New to Netflix? <a href="#" class="signuptn">Sign up now.</a> </h2><br>
+        <h2>This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</h2>
       </div>
     </div>`
   </main>

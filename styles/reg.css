@@ -1,23 +1,27 @@
-body{
-  background: rgba(0, 0, 0, .5)
- url("https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/891f9fb4-7a31-450b-9949-79bd8612fcb3/NG-en-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg");
- background-blend-mode: darken;
+*{
+  box-sizing: border-box;
 }
-.container{
+body {
+  background: rgba(0, 0, 0, .5) url("https://assets.nflxext.com/ffe/siteui/vlv3/935156fb-9579-4fc2-ad94-70680402b8ef/891f9fb4-7a31-450b-9949-79bd8612fcb3/NG-en-20230109-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-blend-mode: darken;
+}
+
+.container {
   position: absolute;
   margin-left: 36%;
   margin-top: 1%;
   width: 440px;
   height: 595px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, .7);
 }
 
-.container h1{
+.container h1 {
   color: #fff;
   margin-top: 60px;
   margin-left: 50px;
 }
-input{
+
+input {
   margin-left: 50px;
   margin-top: 20px;
   width: 320px;
@@ -27,42 +31,56 @@ input{
   border: none;
   font-size: 20px;
 }
-input::placeholder{
+
+input::placeholder {
   font-size: 12px;
   margin-left: 15px;
   padding: 12px;
 
 }
 
-input[type=submit]{
+input[type=submit] {
   width: 320px;
   height: 45px;
-  background-color:#E50914;
+  background-color: #E50914;
   color: white;
   border-radius: 3px;
   cursor: pointer;
   margin-top: 40px;
 }
 
-input[type=checkbox]{
-width: 25px;
-height: 18px;
-border-radius: 5px;
+input[type=checkbox] {
+  width: 25px;
+  height: 18px;
+  border-radius: 5px;
 }
 
-label{
-  color: rgb(125,119, 119);
+label {
+  color: rgb(125, 119, 119);
 }
-.form a{
-float: right;
-margin-top: 24px;
-margin-right: 64px;
-color: rgb(125,119, 119);
-text-decoration: none;
-}
-.content{
 
+.form a {
+  float: right;
+  margin-top: 24px;
+  margin-right: 64px;
+  color: rgb(125, 119, 119);
+  text-decoration: none;
 }
-.content h2{
-  
+
+.content {
+  position: absolute;
+  margin-top: 80px;
+  font-size: 9px;
+  margin-left: 55px;
+}
+
+.content h2 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signuptn {
+  text-decoration: none;
+  color: #fff;
+
 }
